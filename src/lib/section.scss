@@ -40,6 +40,11 @@ $contentSizeMap: (
 	grid-template-columns: repeat(6, 1fr);
 
 	@media all and (width < var.screen('laptop')) {
-		grid-template-columns: 1fr;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	@media all and (width < var.screen('mobile')) {
+		grid-template-columns: 1fr 1fr;
+
 	}
 }

@@ -194,11 +194,13 @@
     <footer class="footer__content">
       <div class="footer__block section__six">
         {{#each footer}}
-        <div class="footer__colons footer__line">
+        <div class="footer__colons">
           <h4 class="footer__title">{{title}}</h4>
+            <div class="f__link">
             {{#each links}}
             <a href="{{url}}" class="footer__link">{{text}}</a>
             {{/each}}
+            </div>
         </div>
         {{/each}}
       </div>

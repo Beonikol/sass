@@ -45,7 +45,12 @@
 }
 @media all and (width < 1260px) {
   .section__six {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media all and (width < 620px) {
+  .section__six {
+    grid-template-columns: 1fr 1fr;
   }
 }
 

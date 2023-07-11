@@ -178,7 +178,6 @@ $productImage: (
 .footer__content {
 	@extend .section__content;
 	padding-top: calc(s.space(9) + 2px);
-	
 }
 
 .footer__block {
@@ -188,11 +187,7 @@ $productImage: (
 .footer__colons {
 	display: flex;
 	flex-direction: column;
-	gap: 16px;
-}
-
-.footer__line {
-	gap: s.space(3);
+	gap: s.space(4);
 }
 
 .footer__link {
@@ -205,4 +200,10 @@ $productImage: (
 .footer__title {
 	color: s.color('fontDark');
 	font-weight: 600;
+}
+
+.f__link {
+	display: flex;
+	flex-direction: column;
+	gap: s.space(3);
 }
